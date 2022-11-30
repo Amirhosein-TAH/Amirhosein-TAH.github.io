@@ -30,8 +30,8 @@ img{
 	transition: ease 0.5s all;
 }
 img:hover{
-	width: 350px;
-	height: 350px;
+	width: 320px;
+	height: 320px;
 	box-shadow: 20px 20px 20px #8d8d9a;
 }
 div.b{
