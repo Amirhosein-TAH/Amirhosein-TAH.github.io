@@ -8,6 +8,7 @@ div.a{
 	background-color: #EAEAEA;
 	padding-right: 10px;
 	opacity: 0.8;
+	border-radius: 10px;
 }
 p{
 	width: 69%;
@@ -34,5 +35,5 @@ img:hover{
 	box-shadow: 20px 20px 20px #8d8d9a;
 }
 div.b{
-	margin-top: 50px;
+	margin: 50px auto;
 }
