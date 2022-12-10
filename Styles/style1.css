@@ -1,39 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;    
+    box-sizing: border-box;
+}
 body{
-	background-image: url("../Images/a.jfif");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+    color: #555;
+    background-color: #888;
+    font-family: arial;
 }
-div.a{
-	background-color: #EAEAEA;
-	padding-right: 10px;
-	opacity: 0.8;
-	border-radius: 10px;
+main{
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    height: 100%;
 }
-p{
-	width: 69%;
-	text-align: justify;
-	font-family: 'b yekan';
+main{
+ padding-top: 25px;
 }
-h1.a{
-	text-align: center;
-	color: white;
+.clear {
+    clear: both;
 }
-img{
-	width: 300px;
-	height: 300px;
-	border-radius: 10px;
-	margin-left: 50px;
-	position: relative;
-	right: 24%;
-	box-shadow: 8px 8px 10px #8d8d9a;
-	transition: ease 0.5s all;
+header .profile .personal-info ul{
+    list-style: none;
+    margin: 5px 0;
 }
-img:hover{
-	width: 320px;
-	height: 320px;
-	box-shadow: 20px 20px 20px #8d8d9a;
+
+header .profile .profile-image, header .profile .personal-info {
+    float: left;
+    height: 100px;
 }
-div.b{
-	margin: 50px auto;
+header .profile .profile-image{
+    width: 150px;
+}
+header .profile .personal-info{
+    width: 710px;
+}
+header .profile .profile-image img{
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	margin-left: 20px;
+}
+.motivation{
+    margin: 20px 0 20px 0;
+    text-align: center;
+    font-size: 40px;
+}
+.service-item{
+    float: left;
+    width: 280px;
+}
+.box-title{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+section#services{
+    background-color: #999;
+    color: white;
+    padding: 30px;
+}
+#services .service-title{
+    text-align: center;
+}
+.description{
+    text-align: center;
+}
+.project-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.float{
+    float: right;
+    margin-right: 60%;
+}
+.project-item{
+    margin: 30px 0;
 }
