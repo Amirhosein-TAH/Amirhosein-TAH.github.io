@@ -80,3 +80,13 @@ section#services{
 .project-item{
     margin: 30px 0;
 }
+.about{
+    background-color: #999;
+    color: white;
+    padding: 30px;
+}
+p{
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: justify;
+}

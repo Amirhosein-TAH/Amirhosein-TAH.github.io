@@ -1,0 +1,39 @@
+body{
+	background-image: url("../Images/a.jfif");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+div.a{
+	background-color: #EAEAEA;
+	padding-right: 10px;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+p{
+	width: 69%;
+	text-align: justify;
+	font-family: 'b yekan';
+}
+h1.a{
+	text-align: center;
+	color: white;
+}
+img{
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+	margin-left: 50px;
+	position: relative;
+	right: 24%;
+	box-shadow: 8px 8px 10px #8d8d9a;
+	transition: ease 0.5s all;
+}
+img:hover{
+	width: 320px;
+	height: 320px;
+	box-shadow: 20px 20px 20px #8d8d9a;
+}
+div.b{
+	margin: 50px auto;
+}
