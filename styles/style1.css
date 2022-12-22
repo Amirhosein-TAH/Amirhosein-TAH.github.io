@@ -3,9 +3,14 @@
     margin: 0;    
     box-sizing: border-box;
 }
+:root{
+    --dark: #555;
+    --light: #888;
+    --color-one: ;
+}
 body{
-    color: #555;
-    background-color: #888;
+    color: var(--dark);
+    background-color: var(--light);
     font-family: arial;
 }
 main{
@@ -13,9 +18,7 @@ main{
     margin: 0 auto;
     background-color: white;
     height: 100%;
-}
-main{
- padding-top: 25px;
+    padding-top: 25px;
 }
 .clear {
     clear: both;
@@ -45,21 +48,26 @@ header .profile .profile-image img{
     margin: 20px 0 20px 0;
     text-align: center;
     font-size: 40px;
+    background-color: #999;
+    color: white;
 }
 .service-item{
     float: left;
     width: 280px;
+    height: 280px;
+    margin: 30px 10px;
+    text-align: center;
+    background-color: #8c8c8c;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 4px 4px 5px #b3b3b3;
 }
 .box-title{
     font-size: 35px;
     text-align: center;
     margin-bottom: 10px;
 }
-section#services{
-    background-color: #999;
-    color: white;
-    padding: 30px;
-}
+
 #services .service-title{
     text-align: center;
 }
